@@ -1,0 +1,42 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+
+}
+
+
+.sec {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    transition: background-color 1s ease;
+
+}
+
+
+
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    transition: background-color 1s ease;
+}
+
+.fixed-center {
+    position: fixed;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.smaller-svg {
+    width: 250px;
+    height: 250px;
+    transition: background-color 1s ease;
+}
